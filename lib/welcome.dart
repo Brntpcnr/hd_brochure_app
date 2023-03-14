@@ -17,24 +17,25 @@ class HomePage extends StatelessWidget {
         children: [
           Center(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(0,15,0,0),
+              padding: const EdgeInsets.fromLTRB(0,25,0,0),
               child: Image.asset("assets/hdlogo.png", height: 150, color: Colors.white),
           ),
           ),
-          Image.asset("assets/Ttjb.gif",
+          Image.asset("assets/giphy.gif",
               height: 400, width: 300, fit: BoxFit.fitWidth, ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(50, 0, 5, 6),
+            padding: const EdgeInsets.fromLTRB(35, 0, 5, 20),
             child: ListTile(
-              title: Text("Welcome to Harley Davidson App",
-                style: TextStyle(color: Colors.white70),
+              title: Text("Welcome to the Harley Davidson App",
+                style: TextStyle(color: Colors.white, fontFamily: 'Quattrocento',
+                    fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, fontSize: 18),
               ),
             ),
           ),
           RaisedButton(
             child: Text("Let's Go"),
             textColor: Colors.white,
-            color: _hasBeenPressed ? Colors.deepOrange : Colors.grey,
+            color: _hasBeenPressed ? Colors.grey : Colors.deepOrange,
             onPressed: () {
               Navigator.push(
                 context,
