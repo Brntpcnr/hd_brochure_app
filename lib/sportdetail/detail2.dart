@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
+import '../main.dart';
+import '../sport.dart';
 
 
 void main() {
-  runApp(const CruiserDetail8());
+  runApp(const Detail2());
 }
 
-class CruiserDetail8 extends StatelessWidget {
-  const CruiserDetail8({Key? key}) : super(key: key);
+class Detail2 extends StatelessWidget {
+  const Detail2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,27 +20,27 @@ class CruiserDetail8 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("BREAKOUT 117", style: TextStyle(
+                child: Text("SPORTSTER S", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/bre.png", width: 400, height: 300),
+            Image.asset("assets/SportsterS.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Breakout® 117",
+                "2023 Sportster® S ",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Wake up your senses while stealing glances.",
+                    "Born to outperform.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "The 2023 Breakout 117 is a raked out cruiser dripping in chrome.",
+                "Sportster S is the first chapter of a whole new book of the Sportster saga. A legacy born in 1957 that outperformed the competition is now rebuilt to blow away the standards of today.",
               ),
             ),
             Row(
@@ -91,15 +90,15 @@ class CruiserDetail8 extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1923CC", style: TextStyle(fontWeight: FontWeight.bold)),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
-                  child: Text("102 HP / 76kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("1252CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("168 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("121 HP / 90kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
+                  child: Text("127 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

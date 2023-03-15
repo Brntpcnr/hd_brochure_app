@@ -1,6 +1,18 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'welcome.dart';
+import 'package:hd_brochure_app/granddetail/gd1.dart';
+import 'package:hd_brochure_app/granddetail/gd2.dart';
+import 'package:hd_brochure_app/granddetail/gd3.dart';
+import 'package:hd_brochure_app/granddetail/gd4.dart';
+import 'package:hd_brochure_app/granddetail/gd5.dart';
+import 'package:hd_brochure_app/granddetail/gd6.dart';
+import 'package:hd_brochure_app/granddetail/gd7.dart';
+import 'package:hd_brochure_app/granddetail/gd8.dart';
+import 'package:hd_brochure_app/granddetail/gd9.dart';
+import 'package:hd_brochure_app/granddetail/gd10.dart';
+
+
 
 void main() {
   runApp(const Grand());
@@ -37,7 +49,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD1()
                   ),
                 );
               },
@@ -62,7 +74,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD2()
                   ),
                 );
               },
@@ -86,7 +98,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD3()
                   ),
                 );
               },
@@ -110,7 +122,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD4()
                   ),
                 );
               },
@@ -134,7 +146,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD5()
                   ),
                 );
               },
@@ -158,7 +170,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD6()
                   ),
                 );
               },
@@ -182,7 +194,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD7()
                   ),
                 );
               },
@@ -206,7 +218,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD8()
                   ),
                 );
               },
@@ -230,7 +242,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD9()
                   ),
                 );
               },
@@ -254,7 +266,7 @@ class Grand extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => GD10()
                   ),
                 );
               },

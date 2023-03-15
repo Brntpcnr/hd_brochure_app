@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
+import '../main.dart';
+import '../sport.dart';
 
 
 void main() {
-  runApp(const Detail3());
+  runApp(const GD9());
 }
 
-class Detail3 extends StatelessWidget {
-  const Detail3({Key? key}) : super(key: key);
+class GD9 extends StatelessWidget {
+  const GD9({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,27 +20,27 @@ class Detail3 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("NIGHTSTER SPECIAL", style: TextStyle(
+                child: Text("ULTRA LIMITED", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/NightsterSpecial.png", width: 400, height: 300),
+            Image.asset("assets/ultralimited.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "The 2023 Nightster® Special ",
+                "2023 Ultra Limited",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Escape into the night.",
+                    "2023 Ultra Limited",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "The 2023 Nightster Special is a thrilling new ride in a classic Sportster silhouette.",
+                "Premium touring performance with zero compromises to the ride.",
               ),
             ),
             Row(
@@ -89,16 +89,16 @@ class Detail3 extends StatelessWidget {
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(50,10,0,0),
-                  child: Text("975CC", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(48,10,0,0),
+                  child: Text("1868CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(50,10,0,0),
-                  child: Text("90 HP / 67kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(47,10,0,0),
+                  child: Text("87 HP / 65kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(50,10,0,0),
-                  child: Text("95 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(45,10,0,0),
+                  child: Text("160 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

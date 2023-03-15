@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
+import '../main.dart';
+import '../sport.dart';
 
 
 void main() {

@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hd_brochure_app/detail2.dart';
-import 'package:hd_brochure_app/detail3.dart';
-import 'main.dart';
-import 'welcome.dart';
-import 'detail1.dart';
-import 'detail2.dart';
-import 'detail3.dart';
+import 'package:hd_brochure_app/sportdetail/detail2.dart';
+import 'package:hd_brochure_app/sportdetail/detail3.dart';
+import 'package:hd_brochure_app/sportdetail/detail1.dart';
 
 void main() {
   runApp(const Sport());

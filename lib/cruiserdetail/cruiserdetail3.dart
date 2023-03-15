@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
+import '../main.dart';
+import '../sport.dart';
+import '../cruiser.dart';
 
 
 void main() {
-  runApp(const AdventureDetail2());
+  runApp(const CruiserDetail3());
 }
 
-class AdventureDetail2 extends StatelessWidget {
-  const AdventureDetail2({Key? key}) : super(key: key);
+class CruiserDetail3 extends StatelessWidget {
+  const CruiserDetail3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,27 +21,27 @@ class AdventureDetail2 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("PAN AMERICA 1250", style: TextStyle(
+                child: Text("FAT BOB 114", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/PanAmerica.png", width: 400, height: 300),
+            Image.asset("assets/fatbob114.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Pan America™ 1250",
+                "2023 Fat Bob® 114",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Choose your own adventure.",
+                    "Muscle meets performance.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "Pan America 1250 motorcycle is a two-wheel multi-tool built to endure, designed to explore, and engineered for adventure.",
+                "A street-eater with an appetite for power. Built with muscular style and performance.",
               ),
             ),
             Row(
@@ -91,15 +91,15 @@ class AdventureDetail2 extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1252CC", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("1868CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
-                  child: Text("150 HP / 112kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(50,10,0,0),
+                  child: Text("93 HP / 69kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(35,10,0,0),
-                  child: Text("128 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(45,10,0,0),
+                  child: Text("155 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

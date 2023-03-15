@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hd_brochure_app/cruiserdetail1.dart';
-import 'package:hd_brochure_app/cruiserdetail2.dart';
-import 'package:hd_brochure_app/cruiserdetail3.dart';
-import 'package:hd_brochure_app/cruiserdetail4.dart';
-import 'package:hd_brochure_app/cruiserdetail5.dart';
-import 'package:hd_brochure_app/cruiserdetail6.dart';
-import 'package:hd_brochure_app/cruiserdetail7.dart';
-import 'package:hd_brochure_app/cruiserdetail8.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail1.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail2.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail3.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail4.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail5.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail6.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail7.dart';
+import 'package:hd_brochure_app/cruiserdetail/cruiserdetail8.dart';
 import 'main.dart';
 import 'welcome.dart';
 

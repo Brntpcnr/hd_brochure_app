@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'welcome.dart';
-import 'trikedetail1.dart';
-import 'trikedetail2.dart';
-import 'trikedetail3.dart';
+import 'trikedetail/trikedetail1.dart';
+import 'trikedetail/trikedetail2.dart';
+import 'trikedetail/trikedetail3.dart';
+import 'package:hd_brochure_app/trikedetail/trikedetail1.dart';
+import 'package:hd_brochure_app/trikedetail/trikedetail2.dart';
+import 'package:hd_brochure_app/trikedetail/trikedetail3.dart';
 
 void main() {
   runApp(const Trike());

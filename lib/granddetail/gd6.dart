@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
+import '../main.dart';
+import '../sport.dart';
 
 
 void main() {
-  runApp(const Detail2());
+  runApp(const GD6());
 }
 
-class Detail2 extends StatelessWidget {
-  const Detail2({Key? key}) : super(key: key);
+class GD6 extends StatelessWidget {
+  const GD6({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,27 +20,27 @@ class Detail2 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("SPORTSTER S", style: TextStyle(
+                child: Text("ROAD GLIDE LIMITED", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/SportsterS.png", width: 400, height: 300),
+            Image.asset("assets/roadglil.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Sportster® S ",
+                "2023 Road Glide® Limited ",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Born to outperform.",
+                    "For adventures meant to be shared.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "Sportster S is the first chapter of a whole new book of the Sportster saga. A legacy born in 1957 that outperformed the competition is now rebuilt to blow away the standards of today.",
+                "A masterful touring machine built to chase the horizon in style.",
               ),
             ),
             Row(
@@ -90,15 +90,15 @@ class Detail2 extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1252CC", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("1868CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("121 HP / 90kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("87 HP / 65kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
-                  child: Text("127 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(48,10,0,0),
+                  child: Text("160 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'welcome.dart';
-import 'adventuredetail1.dart';
-import 'adventuredetail2.dart';
+import 'package:hd_brochure_app/adventuredetail/adventuredetail1.dart';
+import 'package:hd_brochure_app/adventuredetail/adventuredetail2.dart';
+
 
 void main() {
   runApp(const Adventure());

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
+import '../main.dart';
+import '../sport.dart';
+import '../cruiser.dart';
 
 
 void main() {

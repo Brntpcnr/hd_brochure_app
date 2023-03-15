@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
-
+import '../main.dart';
+import '../sport.dart';
+import '../cruiser.dart';
+import '../trike.dart';
 
 void main() {
-  runApp(const CruiserDetail2());
+  runApp(const TrikeDetail3());
 }
 
-class CruiserDetail2 extends StatelessWidget {
-  const CruiserDetail2({Key? key}) : super(key: key);
+class TrikeDetail3 extends StatelessWidget {
+  const TrikeDetail3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,27 +21,27 @@ class CruiserDetail2 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("LOW RIDER S", style: TextStyle(
+                child: Text("FREEWHEELER", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/lowriders.png", width: 400, height: 300),
+            Image.asset("assets/Freewheeler.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Low Rider® S",
+                "2023 Freewheeler®",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "The black sheep of the blacktop.",
+                    "Cruise with confidence.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "A blacked-out, factory custom performance cruiser.",
+                "Hot-rod attitude on three wheels, the 2023 Freewheeler delivers aggressive style, confidence and performance.",
               ),
             ),
             Row(
@@ -91,15 +91,15 @@ class CruiserDetail2 extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1923CC", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("1868CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("105 HP / 78kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("87 HP / 65kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
-                  child: Text("168 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(48,10,0,0),
+                  child: Text("159 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

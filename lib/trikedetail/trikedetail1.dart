@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
-import 'trike.dart';
+import '../main.dart';
+import '../sport.dart';
+import '../cruiser.dart';
+import '../trike.dart';
+
 
 void main() {
-  runApp(const TrikeDetail2());
+  runApp(const TrikeDetail1());
 }
 
-class TrikeDetail2 extends StatelessWidget {
-  const TrikeDetail2({Key? key}) : super(key: key);
+class TrikeDetail1 extends StatelessWidget {
+  const TrikeDetail1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,27 +22,27 @@ class TrikeDetail2 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("TRI GLIDE ULTRA", style: TextStyle(
+                child: Text("ROAD GLIDE 3", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/TriGlideUltra.png", width: 400, height: 300),
+            Image.asset("assets/RoadGlide3.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Tri Glide® Ultra",
+                "2023 Road Glide® 3",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Fully loaded and uninhibited.",
+                    "Commanding performance with sharknose style.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "A long-haul touring trike with all the torque, style, premium infotainment and cargo space three wheels can hold.",
+                "The all-new 2023 Road Glide 3 combines the soul of a Road Glide with the comfort, convenience and confidence of a three-wheeler.",
               ),
             ),
             Row(
@@ -95,11 +96,11 @@ class TrikeDetail2 extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("87 HP / 65kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("90 HP / 67kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(48,10,0,0),
-                  child: Text("159 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("160 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

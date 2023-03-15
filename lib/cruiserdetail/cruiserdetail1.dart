@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
-import 'trike.dart';
+import '../main.dart';
+import '../sport.dart';
+import '../cruiser.dart';
 
 
 void main() {
-  runApp(const TrikeDetail1());
+  runApp(const CruiserDetail1());
 }
 
-class TrikeDetail1 extends StatelessWidget {
-  const TrikeDetail1({Key? key}) : super(key: key);
+class CruiserDetail1 extends StatelessWidget {
+  const CruiserDetail1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,27 +21,27 @@ class TrikeDetail1 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("ROAD GLIDE 3", style: TextStyle(
+                child: Text("LOW RIDER ST", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/RoadGlide3.png", width: 400, height: 300),
+            Image.asset("assets/lowst2.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Road Glide® 3",
+                "2023 Low Rider® ST",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Commanding performance with sharknose style.",
+                    "Lean in.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "The all-new 2023 Road Glide 3 combines the soul of a Road Glide with the comfort, convenience and confidence of a three-wheeler.",
+                "A weekend escape machine, an American V-Twin sport-touring bike for the rider who digs clean styling and craves outrageous performance.",
               ),
             ),
             Row(
@@ -92,15 +91,15 @@ class TrikeDetail1 extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1868CC", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("1923CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("90 HP / 67kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("103 HP / 77kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(48,10,0,0),
-                  child: Text("160 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
+                  child: Text("169 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),

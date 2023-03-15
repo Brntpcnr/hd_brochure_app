@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
-import 'sport.dart';
-import 'cruiser.dart';
-import 'trike.dart';
+import '../main.dart';
+import '../sport.dart';
+
 
 void main() {
-  runApp(const TrikeDetail3());
+  runApp(const GD2());
 }
 
-class TrikeDetail3 extends StatelessWidget {
-  const TrikeDetail3({Key? key}) : super(key: key);
+class GD2 extends StatelessWidget {
+  const GD2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,27 +20,27 @@ class TrikeDetail3 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("FREEWHEELER", style: TextStyle(
+                child: Text("STREET GLIDE SPECIAL", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/Freewheeler.png", width: 400, height: 300),
+            Image.asset("assets/strglide.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "2023 Freewheeler®",
+                "2023 Street Glide® Special",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Cruise with confidence.",
+                    "Distinctive styling wherever the road may take you.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "Hot-rod attitude on three wheels, the 2023 Freewheeler delivers aggressive style, confidence and performance.",
+                "A factory-custom bagger with highway-shredding power, in a blacked-out or chrome finish.",
               ),
             ),
             Row(
@@ -90,16 +89,16 @@ class TrikeDetail3 extends StatelessWidget {
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(45,10,0,0),
+                  padding: const EdgeInsets.fromLTRB(48,10,0,0),
                   child: Text("1868CC", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("87 HP / 65kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text("93 HP / 69kW", style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(48,10,0,0),
-                  child: Text("159 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
+                  padding: const EdgeInsets.fromLTRB(43,10,0,0),
+                  child: Text("158 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
                 )
               ],
             ),
