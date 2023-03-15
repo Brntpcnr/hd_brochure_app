@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'welcome.dart';
+import 'adventuredetail1.dart';
+import 'adventuredetail2.dart';
 
 void main() {
   runApp(const Adventure());
@@ -37,7 +39,7 @@ class Adventure extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => AdventureDetail1()
                   ),
                 );
               },
@@ -61,7 +63,7 @@ class Adventure extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => AdventureDetail2()
                   ),
                 );
               },

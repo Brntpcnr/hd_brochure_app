@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'welcome.dart';
+import 'trikedetail1.dart';
+import 'trikedetail2.dart';
+import 'trikedetail3.dart';
 
 void main() {
   runApp(const Trike());
@@ -37,7 +40,7 @@ class Trike extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => TrikeDetail1()
                   ),
                 );
               },
@@ -62,7 +65,7 @@ class Trike extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => TrikeDetail2()
                   ),
                 );
               },
@@ -86,7 +89,7 @@ class Trike extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => TrikeDetail3()
                   ),
                 );
               },

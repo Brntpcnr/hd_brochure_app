@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hd_brochure_app/cruiserdetail1.dart';
+import 'package:hd_brochure_app/cruiserdetail2.dart';
+import 'package:hd_brochure_app/cruiserdetail3.dart';
+import 'package:hd_brochure_app/cruiserdetail4.dart';
+import 'package:hd_brochure_app/cruiserdetail5.dart';
+import 'package:hd_brochure_app/cruiserdetail6.dart';
+import 'package:hd_brochure_app/cruiserdetail7.dart';
+import 'package:hd_brochure_app/cruiserdetail8.dart';
 import 'main.dart';
 import 'welcome.dart';
 
@@ -37,7 +45,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail1()
                   ),
                 );
               },
@@ -62,7 +70,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail2()
                   ),
                 );
               },
@@ -86,7 +94,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail3()
                   ),
                 );
               },
@@ -110,7 +118,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail4()
                   ),
                 );
               },
@@ -134,7 +142,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail5()
                   ),
                 );
               },
@@ -158,7 +166,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail6()
                   ),
                 );
               },
@@ -182,7 +190,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail7()
                   ),
                 );
               },
@@ -206,7 +214,7 @@ class Cruiser extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => CruiserDetail8()
                   ),
                 );
               },
