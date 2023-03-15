@@ -58,7 +58,7 @@ class Sport extends StatelessWidget {
                 ],
               ),
               ),
-              Text("Nightster S", style: TextStyle(
+              Text("Nightster", style: TextStyle(
                   color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
               SizedBox(
                 height: 15,
