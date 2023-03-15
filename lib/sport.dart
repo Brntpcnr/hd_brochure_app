@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:hd_brochure_app/detail2.dart';
+import 'package:hd_brochure_app/detail3.dart';
 import 'main.dart';
 import 'welcome.dart';
+import 'detail1.dart';
+import 'detail2.dart';
+import 'detail3.dart';
 
 void main() {
   runApp(const Sport());
@@ -29,10 +34,15 @@ class Sport extends StatelessWidget {
               SizedBox(
                 height: 15,
               ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text("A category created by the venerable Sportster®. Iconic design, authentic sound. These are bikes built for carving mountain roads, and blasting through city streets.", style: TextStyle(
+                    color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
+              ),
               FlatButton(
                 onPressed: () {
                   Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => Detail1()
                     ),
                   );
                 },
@@ -41,10 +51,9 @@ class Sport extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                      child: Image.asset("assets/Nightster.png", width: 300, height: 200,
+                      child: Image.asset("assets/Nightster.png", width: 300, height: 200
                        ),
                     ),
-
                   ),
                 ],
               ),
@@ -57,7 +66,7 @@ class Sport extends StatelessWidget {
               FlatButton(
                 onPressed: () {
                   Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MyApp()
+                    MaterialPageRoute(builder: (context) => Detail2()
                     ),
                   );
                 },
@@ -81,7 +90,7 @@ class Sport extends StatelessWidget {
               FlatButton(
                 onPressed: () {
                   Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MyApp()
+                    MaterialPageRoute(builder: (context) => Detail3()
                     ),
                   );
                 },

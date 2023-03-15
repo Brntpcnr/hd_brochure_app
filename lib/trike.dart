@@ -29,6 +29,11 @@ class Trike extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("Roll with confidence, comfort, and head-turning custom style on three wheels.", style: TextStyle(
+                  color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
+            ),
             FlatButton(
               onPressed: () {
                 Navigator.push(context,

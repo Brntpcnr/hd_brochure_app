@@ -29,6 +29,11 @@ class Cruiser extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("Authentic heritage meets modern technology for power, style, and the unadulterated riding experience – around town or along country roads.", style: TextStyle(
+                  color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
+            ),
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
@@ -161,8 +166,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(15,0,0,0),
-                      child: Image.asset("assets/soft.png", width: 340, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/soft.png", width: 320, height: 200,
                       ),
                     ),
                   ),
@@ -185,8 +190,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/her.png", width: 360, height: 200,
+                      padding: const EdgeInsets.fromLTRB(10,0,0,0),
+                      child: Image.asset("assets/heri.png", width: 340, height: 200,
                       ),
                     ),
                   ),
@@ -210,7 +215,7 @@ class Cruiser extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(15,0,0,0),
-                      child: Image.asset("assets/bre.png", width: 340, height: 200,
+                      child: Image.asset("assets/bre.png", width: 330, height: 200,
                       ),
                     ),
                   ),

@@ -29,6 +29,11 @@ class Adventure extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("Where touring becomes detouring, and everything is a road.", style: TextStyle(
+                  color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
+            ),
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
