@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hd_brochure_app/sportdetail/detail2.dart';
 import 'package:hd_brochure_app/sportdetail/detail3.dart';
 import 'package:hd_brochure_app/sportdetail/detail1.dart';
+import 'package:hd_brochure_app/sportdetail/detail4.dart';
+
 
 void main() {
   runApp(const Sport());
@@ -103,6 +105,30 @@ class Sport extends StatelessWidget {
                 ),
               ),
               Text("Nightster Special", style: TextStyle(
+                  color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
+              SizedBox(
+                height: 15,
+              ),
+              FlatButton(
+                onPressed: () {
+                  Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Detail4()
+                    ),
+                  );
+                },
+                child: Row(
+                  children: [
+                    Container(
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(30,0,0,0),
+                        child: Image.asset("assets/Nightster.png", width: 300, height: 200
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Text("Nightster", style: TextStyle(
                   color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
               SizedBox(
                 height: 15,
