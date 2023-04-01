@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(8, 0, 5, 20),
             child: ListTile(
               title: Center(
-                child: Text("Harley Davidson \n 2023  Brochure ",
+                child: Text("Harley Davidson \n 2023  Brochure",
                   style: TextStyle(color: Colors.white, fontFamily: 'Quattrocento',
                       fontWeight: FontWeight.bold, fontSize: 18),
                 ),
