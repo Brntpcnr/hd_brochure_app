@@ -53,8 +53,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                      child: Image.asset("assets/lowst2.png", width: 300, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/lowst2.png", width: 290, height: 200,
                       ),
                     ),
 
@@ -79,7 +79,7 @@ class Cruiser extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/lowriders.png", width: 360, height: 200,
+                      child: Image.asset("assets/lowriders.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -102,8 +102,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                      child: Image.asset("assets/fatbob114.png", width: 300, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/fatbob114.png", width: 290, height: 200,
                       ),
                     ),
                   ),
@@ -127,7 +127,7 @@ class Cruiser extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/fata.png", width: 360, height: 200,
+                      child: Image.asset("assets/fata.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -151,7 +151,7 @@ class Cruiser extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/sbob.png", width: 360, height: 200,
+                      child: Image.asset("assets/sbob.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -174,8 +174,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
-                      child: Image.asset("assets/soft.png", width: 320, height: 200,
+                      padding: const EdgeInsets.fromLTRB(10,0,0,0),
+                      child: Image.asset("assets/soft.png", width: 310, height: 200,
                       ),
                     ),
                   ),
@@ -198,8 +198,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(10,0,0,0),
-                      child: Image.asset("assets/heri.png", width: 340, height: 200,
+                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
+                      child: Image.asset("assets/heri.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -222,8 +222,8 @@ class Cruiser extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(15,0,0,0),
-                      child: Image.asset("assets/bre.png", width: 330, height: 200,
+                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
+                      child: Image.asset("assets/bre.png", width: 328, height: 200,
                       ),
                     ),
                   ),

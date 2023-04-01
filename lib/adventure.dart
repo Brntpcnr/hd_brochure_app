@@ -49,7 +49,7 @@ class Adventure extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/PanAmericaS.png", width: 360, height: 200,
+                      child: Image.asset("assets/PanAmericaS.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -73,7 +73,7 @@ class Adventure extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/PanAmerica.png", width: 360, height: 200,
+                      child: Image.asset("assets/PanAmerica.png", width: 328, height: 200,
                       ),
                     ),
                   ),

@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   color: Colors.black12,
                   height: 150,
-                  width: 240,
+                  width: 220,
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
                     child: Text("SPORT",
@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     color: Colors.black12,
                     height: 150,
-                    width: 240,
+                    width: 220,
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
                       child: Text("CRUISER",
@@ -120,10 +120,10 @@ class MyApp extends StatelessWidget {
                   Container(
                     color: Colors.black12,
                     height: 150,
-                    width: 240,
+                    width: 220,
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
-                      child: Text("ADVENTURE TOURING",
+                      child: Text("ADVENTURE \n TOURING",
                           style: TextStyle(color: Colors.white, fontSize: 19)),
                     ),
                   ),
@@ -154,7 +154,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     color: Colors.black12,
                     height: 150,
-                    width: 240,
+                    width: 220,
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
                       child: Text("GRAND AMERICAN TOURING",
@@ -188,7 +188,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     color: Colors.black12,
                     height: 150,
-                    width: 240,
+                    width: 220,
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
                       child: Text("TRIKE",

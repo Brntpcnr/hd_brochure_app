@@ -58,7 +58,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/cvoroad.png", width: 360, height: 200,
+                      child: Image.asset("assets/cvoroad.png", width: 328, height: 200,
                       ),
                     ),
 
@@ -83,7 +83,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/strglide.png", width: 360, height: 200,
+                      child: Image.asset("assets/strglide.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -106,8 +106,8 @@ class Grand extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                      child: Image.asset("assets/roadgli.png", width: 300, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/roadgli.png", width: 290, height: 200,
                       ),
                     ),
                   ),
@@ -131,7 +131,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(20,0,0,0),
-                      child: Image.asset("assets/atlassilver.png", width: 320, height: 200,
+                      child: Image.asset("assets/atlassilver.png", width: 290, height: 200,
                       ),
                     ),
                   ),
@@ -155,7 +155,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(20,0,0,0),
-                      child: Image.asset("assets/roadglii.png", width: 310, height: 200,
+                      child: Image.asset("assets/roadglii.png", width: 290, height: 200,
                       ),
                     ),
                   ),
@@ -179,7 +179,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/roadglil.png", width: 360, height: 200,
+                      child: Image.asset("assets/roadglil.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -202,7 +202,7 @@ class Grand extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(30,0,0,0),
+                      padding: const EdgeInsets.fromLTRB(10,0,0,0),
                       child: Image.asset("assets/streetglidest.png", width: 300, height: 200,
                       ),
                     ),
@@ -226,8 +226,8 @@ class Grand extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                      child: Image.asset("assets/roadglidespecial.png", width: 300, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/roadglidespecial.png", width: 290, height: 200,
                       ),
                     ),
                   ),
@@ -251,7 +251,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/ultralimited.png", width: 360, height: 200,
+                      child: Image.asset("assets/ultralimited.png", width: 328, height: 200,
                       ),
                     ),
                   ),
@@ -275,7 +275,7 @@ class Grand extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/roadking.png", width: 360, height: 200,
+                      child: Image.asset("assets/roadking.png", width: 328, height: 200,
                       ),
                     ),
                   ),

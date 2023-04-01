@@ -17,18 +17,20 @@ class HomePage extends StatelessWidget {
         children: [
           Center(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(0,25,0,0),
-              child: Image.asset("assets/hdlogo.png", height: 150, color: Colors.white),
+              padding: const EdgeInsets.fromLTRB(0,40,0,0),
+              child: Image.asset("assets/hdlogo.png", height: 100, color: Colors.white),
           ),
           ),
           Image.asset("assets/giphy.gif",
-              height: 400, width: 300, fit: BoxFit.fitWidth, ),
+              height: 370, width: 300, fit: BoxFit.fitWidth, ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(35, 0, 5, 20),
+            padding: const EdgeInsets.fromLTRB(8, 0, 5, 20),
             child: ListTile(
-              title: Text("Welcome to the Harley Davidson App",
-                style: TextStyle(color: Colors.white, fontFamily: 'Quattrocento',
-                    fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, fontSize: 18),
+              title: Center(
+                child: Text("Harley Davidson \n 2023  Brochure ",
+                  style: TextStyle(color: Colors.white, fontFamily: 'Quattrocento',
+                      fontWeight: FontWeight.bold, fontSize: 18),
+                ),
               ),
             ),
           ),

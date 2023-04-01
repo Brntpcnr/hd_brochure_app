@@ -51,8 +51,8 @@ class Trike extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(30,0,0,0),
-                      child: Image.asset("assets/RoadGlide3.png", width: 300, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/RoadGlide3.png", width: 290, height: 200,
                       ),
                     ),
 
@@ -76,8 +76,8 @@ class Trike extends StatelessWidget {
                 children: [
                   Container(
                     child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/TriGlideUltra.png", width: 360, height: 200,
+                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Image.asset("assets/TriGlideUltra.png", width: 290, height: 200,
                       ),
                     ),
                   ),
@@ -101,7 +101,7 @@ class Trike extends StatelessWidget {
                   Container(
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/Freewheeler.png", width: 360, height: 200,
+                      child: Image.asset("assets/Freewheeler.png", width: 328, height: 200,
                       ),
                     ),
                   ),
