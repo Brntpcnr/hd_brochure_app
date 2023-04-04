@@ -44,65 +44,65 @@ class AdventureDetail2 extends StatelessWidget {
                 "Pan America 1250 motorcycle is a two-wheel multi-tool built to endure, designed to explore, and engineered for adventure.",
               ),
             ),
-            Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40,20,20,0),
-                  child: CircleAvatar(
-                    radius: 32,
-                    backgroundColor: Colors.orange,
-                    child: CircleAvatar(
-                      radius: 30,
-                      child: Image.asset("assets/vengin.jpg", color: Colors.orange, width: 42, height: 42),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(30,20,20,0),
-                  child: CircleAvatar(
-                    radius: 32,
-                    backgroundColor: Colors.orange,
-                    child: CircleAvatar(
-                      radius: 30,
-                      child: Image.asset("assets/hp.jpg", color: Colors.orange, width: 42, height: 42),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(30,20,0,0),
-                  child: CircleAvatar(
-                    radius: 32,
-                    backgroundColor: Colors.orange,
-                    child: CircleAvatar(
-                      radius: 30,
-                      child: Image.asset("assets/biketire.png", color: Colors.orange, width: 42, height: 42),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
-                    ),
-                  ),
-                ),
-              ],
+            SizedBox(
+              height: 15,
             ),
             Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1252CC", style: TextStyle(fontWeight: FontWeight.bold)),
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(radius: 32,
+                      backgroundColor: Colors.orange,
+                      child: CircleAvatar(
+                        radius: 30,
+                        child: Image.asset("assets/vengin.jpg", color: Colors.orange, width: 42, height: 42),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.orange,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('1252CC', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ],
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
-                  child: Text("150 HP / 112kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(radius: 32,
+                      backgroundColor: Colors.orange,
+                      child: CircleAvatar(
+                        radius: 30,
+                        child: Image.asset("assets/hp.jpg", color: Colors.orange, width: 42, height: 42),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.orange,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('150 HP / 112 kW', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ],
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(35,10,0,0),
-                  child: Text("128 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
-                )
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(radius: 32,
+                      backgroundColor: Colors.orange,
+                      child: CircleAvatar(
+                        radius: 30,
+                        child: Image.asset("assets/biketire.png", color: Colors.orange, width: 42, height: 42),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.orange,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('128 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ],
+                ),
               ],
-            ),
+            )
           ],
         ),
       ),

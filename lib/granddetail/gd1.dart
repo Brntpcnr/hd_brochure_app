@@ -43,65 +43,65 @@ class GD1 extends StatelessWidget {
                 "The 2023 CVO Road Glide Limited Anniversary model is an extremely limited, serialized custom bagger loaded with exclusive details, power and styling that celebrate 120 years of Harley-Davidson motorcycles. It’s the ultimate ride to the H-D Homecoming™ event.",
               ),
             ),
-            Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40,20,20,0),
-                  child: CircleAvatar(
-                    radius: 32,
-                    backgroundColor: Colors.orange,
-                    child: CircleAvatar(
-                      radius: 30,
-                      child: Image.asset("assets/vengin.jpg", color: Colors.orange, width: 42, height: 42),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(30,20,20,0),
-                  child: CircleAvatar(
-                    radius: 32,
-                    backgroundColor: Colors.orange,
-                    child: CircleAvatar(
-                      radius: 30,
-                      child: Image.asset("assets/hp.jpg", color: Colors.orange, width: 42, height: 42),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(30,20,0,0),
-                  child: CircleAvatar(
-                    radius: 32,
-                    backgroundColor: Colors.orange,
-                    child: CircleAvatar(
-                      radius: 30,
-                      child: Image.asset("assets/biketire.png", color: Colors.orange, width: 42, height: 42),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
-                    ),
-                  ),
-                ),
-              ],
+            SizedBox(
+              height: 15,
             ),
             Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("1923CC", style: TextStyle(fontWeight: FontWeight.bold)),
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(radius: 32,
+                      backgroundColor: Colors.orange,
+                      child: CircleAvatar(
+                        radius: 30,
+                        child: Image.asset("assets/vengin.jpg", color: Colors.orange, width: 42, height: 42),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.orange,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('1923CC', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ],
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40,10,0,0),
-                  child: Text("105 HP / 78kW", style: TextStyle(fontWeight: FontWeight.bold)),
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(radius: 32,
+                      backgroundColor: Colors.orange,
+                      child: CircleAvatar(
+                        radius: 30,
+                        child: Image.asset("assets/hp.jpg", color: Colors.orange, width: 42, height: 42),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.orange,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('105 HP / 78 kW', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ],
                 ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(45,10,0,0),
-                  child: Text("166 Nm", style: TextStyle(fontWeight: FontWeight.bold)),
-                )
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(radius: 32,
+                      backgroundColor: Colors.orange,
+                      child: CircleAvatar(
+                        radius: 30,
+                        child: Image.asset("assets/biketire.png", color: Colors.orange, width: 42, height: 42),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.orange,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('166 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
+                  ],
+                ),
               ],
-            ),
+            )
           ],
         ),
       ),

@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 120,
                   alignment: Alignment.centerLeft,
-                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 18)),
+                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 20)),
                 ),
                 Container(
                   height: 120,
@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 20)),
                   ),
                   Container(
                       height: 120,
@@ -106,7 +106,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 20)),
                   ),
                   Container(
                       height: 120,
@@ -134,7 +134,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 20)),
                   ),
                   Container(
                       height: 120,
@@ -162,7 +162,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 20)),
                   ),
                   Container(
                       height: 120,
