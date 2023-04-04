@@ -31,8 +31,9 @@ class Sport extends StatelessWidget {
                 height: 15,
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text("A category created by the venerable Sportster®. Iconic design, authentic sound. These are bikes built for carving mountain roads, and blasting through city streets.", style: TextStyle(
+                padding: const EdgeInsets.all(8),
+                child: Text("A category created by the venerable Sportster®. Iconic design, authentic sound. These are bikes built for carving mountain roads, and blasting through city streets.",
+                    textAlign: TextAlign.center, style: TextStyle(
                     color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
               ),
               FlatButton(
@@ -43,15 +44,11 @@ class Sport extends StatelessWidget {
                   );
                 },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
-                      child: Center(
                         child: Image.asset("assets/Nightster.png", width: 290, height: 200
                          ),
-                      ),
-                    ),
                   ),
                 ],
               ),
@@ -69,15 +66,13 @@ class Sport extends StatelessWidget {
                   );
                 },
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                        child: Center(
-                          child: Image.asset("assets/SportsterS.png", width: 328, height: 200,
-                            ),
-                        ),
+                    Expanded(
+                      child: Container(
+                        child: Image.asset("assets/SportsterS.png", width: 328, height: 200,
                       ),
+                    ),
                     ),
                   ],
                 ),
@@ -95,13 +90,11 @@ class Sport extends StatelessWidget {
                   );
                 },
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(20,0,0,0),
                         child: Image.asset("assets/NightsterSpecial.png", width: 290, height: 200,
                         ),
-                      ),
                     ),
                   ],
                 ),

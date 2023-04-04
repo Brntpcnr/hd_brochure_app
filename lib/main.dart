@@ -47,29 +47,20 @@ class MyApp extends StatelessWidget {
                 );
               },
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
-                  color: Colors.black12,
-                  height: 150,
-                  width: 220,
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
-                    child: Text("SPORT",
-                        style: TextStyle(color: Colors.white, fontSize: 20))
-                  ),
+                  height: 120,
+                  alignment: Alignment.centerLeft,
+                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 18)),
                 ),
                 Container(
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(5,0,0,0),
-                    child: Image.asset("assets/sport.png", width: 100, height: 100,
-                      color: Colors.white),
-                  ),
+                  height: 120,
+                  alignment: Alignment.centerRight,
+                  child: Image.asset("assets/sport.png", width: 100, height: 100, color: Colors.white,)
                 ),
               ],
             ),
-            ),
-            SizedBox(
-              height: 10,
             ),
             FlatButton(
               splashColor: Colors.deepOrange,
@@ -82,23 +73,17 @@ class MyApp extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    color: Colors.black12,
-                    height: 150,
-                    width: 220,
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
-                      child: Text("CRUISER",
-                          style: TextStyle(color: Colors.white, fontSize: 20)),
-                    ),
+                    height: 120,
+                    alignment: Alignment.centerLeft,
+                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(5,0,0,0),
-                      child: Image.asset("assets/cruiser.png", width:100, height: 100,
-                      color: Colors.white),
-                    ),
+                      height: 120,
+                      alignment: Alignment.centerRight,
+                      child: Image.asset("assets/cruiser.png", width: 100, height: 100, color: Colors.white,)
                   ),
                 ],
               ),
@@ -116,23 +101,17 @@ class MyApp extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    color: Colors.black12,
-                    height: 150,
-                    width: 220,
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
-                      child: Text("ADVENTURE \n TOURING",
-                          style: TextStyle(color: Colors.white, fontSize: 19)),
-                    ),
+                    height: 120,
+                    alignment: Alignment.centerLeft,
+                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(5,0,0,0),
-                      child: Image.asset("assets/enduro.png", width: 100, height: 100,
-                        color: Colors.white),
-                    ),
+                      height: 120,
+                      alignment: Alignment.centerRight,
+                      child: Image.asset("assets/enduro.png", width: 100, height: 100, color: Colors.white,)
                   ),
                 ],
               ),
@@ -150,23 +129,17 @@ class MyApp extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    color: Colors.black12,
-                    height: 150,
-                    width: 220,
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
-                      child: Text("GRAND AMERICAN TOURING",
-                          style: TextStyle(color: Colors.white, fontSize: 19)),
-                    ),
+                    height: 120,
+                    alignment: Alignment.centerLeft,
+                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(5,0,0,0),
-                      child: Image.asset("assets/grandtour.png", width: 100, height: 100,
-                        color: Colors.white,),
-                    ),
+                      height: 120,
+                      alignment: Alignment.centerRight,
+                      child: Image.asset("assets/grandtour.png", width: 100, height: 100, color: Colors.white,)
                   ),
                 ],
               ),
@@ -184,23 +157,17 @@ class MyApp extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    color: Colors.black12,
-                    height: 150,
-                    width: 220,
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(15, 50, 0, 0),
-                      child: Text("TRIKE",
-                          style: TextStyle(color: Colors.white, fontSize: 20)),
-                    ),
+                    height: 120,
+                    alignment: Alignment.centerLeft,
+                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(5,0,0,0),
-                      child: Image.asset("assets/trike.png", width: 100, height: 100,
-                        color: Colors.white,),
-                    ),
+                      height: 120,
+                      alignment: Alignment.centerRight,
+                      child: Image.asset("assets/trike.png", width: 100, height: 100, color: Colors.white,)
                   ),
                 ],
               ),

@@ -7,7 +7,6 @@ void main() => runApp(MaterialApp(
 
 class HomePage extends StatelessWidget {
 
-  bool _hasBeenPressed = false;
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +23,10 @@ class HomePage extends StatelessWidget {
           Image.asset("assets/giphy.gif",
               height: 370, width: 300, fit: BoxFit.fitWidth, ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(8, 0, 5, 20),
+            padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
             child: ListTile(
               title: Center(
-                child: Text("Harley Davidson \n 2023  Brochure",
+                child: Text("Harley Davidson \n 2023 Brochure", textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.white, fontFamily: 'Quattrocento',
                       fontWeight: FontWeight.bold, fontSize: 18),
                 ),
@@ -36,8 +35,8 @@ class HomePage extends StatelessWidget {
           ),
           RaisedButton(
             child: Text("Let's Go"),
+            color: Colors.deepOrange,
             textColor: Colors.white,
-            color: _hasBeenPressed ? Colors.grey : Colors.deepOrange,
             onPressed: () {
               Navigator.push(
                 context,

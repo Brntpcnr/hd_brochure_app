@@ -34,7 +34,8 @@ class Adventure extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text("Where touring becomes detouring, and everything is a road.", style: TextStyle(
+              child: Text("Where touring becomes detouring, and everything is a road.",
+                  textAlign: TextAlign.center, style: TextStyle(
                   color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
             ),
             FlatButton(
@@ -45,13 +46,11 @@ class Adventure extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
                       child: Image.asset("assets/PanAmericaS.png", width: 328, height: 200,
                       ),
-                    ),
                   ),
                 ],
               ),
@@ -69,13 +68,11 @@ class Adventure extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
                       child: Image.asset("assets/PanAmerica.png", width: 328, height: 200,
                       ),
-                    ),
                   ),
                 ],
               ),

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'welcome.dart';
@@ -37,7 +38,8 @@ class Trike extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text("Roll with confidence, comfort, and head-turning custom style on three wheels.", style: TextStyle(
+              child: Text("Roll with confidence, comfort, and head-turning custom style on three wheels.",
+                  textAlign: TextAlign.center, style: TextStyle(
                   color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
             ),
             FlatButton(
@@ -48,14 +50,11 @@ class Trike extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
                       child: Image.asset("assets/RoadGlide3.png", width: 290, height: 200,
-                      ),
                     ),
-
                   ),
                 ],
               ),
@@ -73,12 +72,10 @@ class Trike extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
-                      child: Image.asset("assets/TriGlideUltra.png", width: 290, height: 200,
-                      ),
+                      child: Image.asset("assets/TriGlideUltra.png", fit: BoxFit.contain, height: 200,
                     ),
                   ),
                 ],
@@ -97,13 +94,13 @@ class Trike extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/Freewheeler.png", width: 328, height: 200,
-                      ),
+                  Expanded(
+                    child: Container(
+                      child: Image.asset("assets/Freewheeler.png", fit: BoxFit.contain, height: 200,
                     ),
+                  ),
                   ),
                 ],
               ),

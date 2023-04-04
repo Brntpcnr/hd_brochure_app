@@ -39,7 +39,8 @@ class Cruiser extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text("Authentic heritage meets modern technology for power, style, and the unadulterated riding experience – around town or along country roads.", style: TextStyle(
+              child: Text("Authentic heritage meets modern technology for power, style, and the unadulterated riding experience – around town or along country roads.",
+                  textAlign: TextAlign.center, style: TextStyle(
                   color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
             ),
             FlatButton(
@@ -50,14 +51,11 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
                       child: Image.asset("assets/lowst2.png", width: 290, height: 200,
                       ),
-                    ),
-
                   ),
                 ],
               ),
@@ -75,13 +73,11 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
                       child: Image.asset("assets/lowriders.png", width: 328, height: 200,
                       ),
-                    ),
                   ),
                 ],
               ),
@@ -99,13 +95,11 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(20,0,0,0),
-                      child: Image.asset("assets/fatbob114.png", width: 290, height: 200,
+                      child: Image.asset("assets/fatbob114.png", width: 280, height: 200,
                       ),
-                    ),
                   ),
                 ],
               ),
@@ -123,12 +117,10 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
                       child: Image.asset("assets/fata.png", width: 328, height: 200,
-                      ),
                     ),
                   ),
                 ],
@@ -147,12 +139,10 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
                       child: Image.asset("assets/sbob.png", width: 328, height: 200,
-                      ),
                     ),
                   ),
                 ],
@@ -171,12 +161,10 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(10,0,0,0),
-                      child: Image.asset("assets/soft.png", width: 310, height: 200,
-                      ),
+                      child: Image.asset("assets/soft.png", width: 300, height: 200,
                     ),
                   ),
                 ],
@@ -195,12 +183,10 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/heri.png", width: 328, height: 200,
-                      ),
+                      child: Image.asset("assets/heri.png", width: 320, height: 200,
                     ),
                   ),
                 ],
@@ -219,12 +205,10 @@ class Cruiser extends StatelessWidget {
                 );
               },
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0,0,0,0),
-                      child: Image.asset("assets/bre.png", width: 328, height: 200,
-                      ),
+                      child: Image.asset("assets/bre.png", width: 310, height: 200,
                     ),
                   ),
                 ],
