@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
           Image.asset("assets/giphy.gif",
               height: 370, width: 300, fit: BoxFit.fitWidth, ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
+            padding: const EdgeInsets.fromLTRB(0, 0, 0, 50),
             child: ListTile(
               title: Center(
                 child: Text("Harley Davidson \n 2023 Brochure", textAlign: TextAlign.center,

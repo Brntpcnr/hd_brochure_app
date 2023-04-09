@@ -27,11 +27,9 @@ class Home extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
-        child: Column(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            SizedBox(
-              height: 10,
-            ),
             FlatButton(
               splashColor: Colors.deepOrange,
               onPressed: () {
@@ -45,21 +43,45 @@ class Home extends StatelessWidget {
                 child:
                   Column(
                     children: <Widget>[
-                      CircleAvatar(radius: 32,
-                        backgroundColor: Colors.orange,
-                        child: CircleAvatar(
-                          radius: 30,
-                          child: Image.asset("assets/vengin.jpg", color: Colors.orange, width: 42, height: 42),
+                      CircleAvatar(
+                          radius: 60,
+                          child: Image.asset("assets/cruiser.jpg", color: Colors.orange, width: 50, height: 42),
                           backgroundColor: Colors.black,
                           foregroundColor: Colors.orange,
-                        ),
                       ),
                       SizedBox(
                         height: 5,
                       ),
-                      Text('975CC', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+                      Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
                     ],
                   ),
+              ),
+            ),
+            FlatButton(
+              splashColor: Colors.deepOrange,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyApp()
+                  ),
+                );
+              },
+              child: Container(
+                child:
+                Column(
+                  children: <Widget>[
+                    CircleAvatar(
+                      radius: 60,
+                      child: Image.asset("assets/sport.jpg", color: Colors.orange, width: 50, height: 42),
+                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.orange,
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+                  ],
+                ),
               ),
             ),
           ],
