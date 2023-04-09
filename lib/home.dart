@@ -31,7 +31,7 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             FlatButton(
-              splashColor: Colors.deepOrange,
+              //splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -45,9 +45,8 @@ class Home extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                           radius: 60,
-                          child: Image.asset("assets/cruiser.jpg", color: Colors.orange, width: 50, height: 42),
+                          child: Image.asset("assets/sport.png", color: Colors.white, width: 80, height: 70),
                           backgroundColor: Colors.black,
-                          foregroundColor: Colors.orange,
                       ),
                       SizedBox(
                         height: 5,
@@ -58,7 +57,7 @@ class Home extends StatelessWidget {
               ),
             ),
             FlatButton(
-              splashColor: Colors.deepOrange,
+              //splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -72,9 +71,8 @@ class Home extends StatelessWidget {
                   children: <Widget>[
                     CircleAvatar(
                       radius: 60,
-                      child: Image.asset("assets/sport.jpg", color: Colors.orange, width: 50, height: 42),
+                      child: Image.asset("assets/sport.png", color: Colors.white, width: 80, height: 70),
                       backgroundColor: Colors.black,
-                      foregroundColor: Colors.orange,
                     ),
                     SizedBox(
                       height: 5,
