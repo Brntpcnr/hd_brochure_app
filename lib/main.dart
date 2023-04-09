@@ -6,6 +6,7 @@ import 'sport.dart';
 import 'grand.dart';
 import 'adventure.dart';
 import 'trike.dart';
+import 'home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 120,
                   alignment: Alignment.centerLeft,
-                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 20)),
+                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 18)),
                 ),
                 Container(
                   height: 120,
@@ -78,7 +79,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 20)),
+                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
@@ -106,7 +107,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 20)),
+                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
@@ -134,7 +135,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 20)),
+                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
@@ -162,7 +163,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 20)),
+                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,

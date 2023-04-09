@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hd_brochure_app/home.dart';
 import 'main.dart';
+import 'home.dart';
 
 void main() => runApp(MaterialApp(
   home: HomePage(),
@@ -41,7 +43,7 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => MyApp()
+                    builder: (context) => Home()
                 ),
               );
             },
