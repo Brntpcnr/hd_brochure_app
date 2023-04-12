@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hd_brochure_app/maps.dart';
 import 'welcome.dart';
 import 'main.dart';
 
@@ -61,7 +62,7 @@ class Home extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => MyApp()
+                  MaterialPageRoute(builder: (context) => Maps()
                   ),
                 );
               },
