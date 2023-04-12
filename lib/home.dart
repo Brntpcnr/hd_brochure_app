@@ -23,7 +23,8 @@ class Home extends StatelessWidget {
                 'H-D APP',
                 style: TextStyle(color: Colors.black),
               ),
-            )),
+            )
+        ),
       ),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
