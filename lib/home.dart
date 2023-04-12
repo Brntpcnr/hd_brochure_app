@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hd_brochure_app/maps.dart';
 import 'welcome.dart';
 import 'main.dart';
 
@@ -16,13 +15,13 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black12,
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.grey,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
               child: Text(
-                'HOME',
-                style: TextStyle(color: Colors.white),
+                'H-D APP',
+                style: TextStyle(color: Colors.black),
               ),
             )),
       ),
@@ -62,7 +61,7 @@ class Home extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Maps()
+                  MaterialPageRoute(builder: (context) => MyApp()
                   ),
                 );
               },
