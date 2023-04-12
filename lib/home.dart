@@ -15,13 +15,13 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black12,
       appBar: AppBar(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.deepOrange,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
               child: Text(
                 'H-D APP',
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(color: Colors.white),
               ),
             )
         ),
@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                           radius: 60,
-                          child: Image.asset("assets/sport.png", color: Colors.white, width: 80, height: 70),
+                          child: Image.asset("assets/sport.png", color: Colors.deepOrange, width: 80, height: 70),
                           backgroundColor: Colors.black,
                       ),
                       SizedBox(
@@ -72,7 +72,7 @@ class Home extends StatelessWidget {
                   children: <Widget>[
                     CircleAvatar(
                       radius: 60,
-                      child: Image.asset("assets/loc.png", color: Colors.white, width: 80, height: 70),
+                      child: Image.asset("assets/loc.png", color: Colors.deepOrange, width: 80, height: 70),
                       backgroundColor: Colors.black,
                     ),
                     SizedBox(

@@ -35,9 +35,7 @@ class MyApp extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         child: Column(
           children: [
-            SizedBox(
-              height: 10,
-            ),
+
             FlatButton(
               splashColor: Colors.deepOrange,
               onPressed: () {
