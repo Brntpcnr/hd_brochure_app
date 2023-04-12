@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
               child: Text(
-                'BIKES',
+                'MOTORCYCLES',
                 style: TextStyle(color: Colors.white),
               ),
             )),
