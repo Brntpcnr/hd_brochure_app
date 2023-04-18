@@ -13,9 +13,9 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.black,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
@@ -32,7 +32,7 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             FlatButton(
-              //splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -46,19 +46,19 @@ class Home extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                           radius: 60,
-                          child: Image.asset("assets/sport.png", color: Colors.deepOrange, width: 80, height: 70),
-                          backgroundColor: Colors.black,
+                          child: Image.asset("assets/sport.png", color: Colors.black, width: 80, height: 70),
+                          backgroundColor: Colors.transparent,
                       ),
                       SizedBox(
                         height: 5,
                       ),
-                      Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+                      Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
                     ],
                   ),
               ),
             ),
             FlatButton(
-              //splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -72,13 +72,13 @@ class Home extends StatelessWidget {
                   children: <Widget>[
                     CircleAvatar(
                       radius: 60,
-                      child: Image.asset("assets/loc.png", color: Colors.deepOrange, width: 80, height: 70),
-                      backgroundColor: Colors.black,
+                      child: Image.asset("assets/loc.png", color: Colors.black, width: 80, height: 70),
+                      backgroundColor: Colors.transparent,
                     ),
                     SizedBox(
                       height: 5,
                     ),
-                    Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+                    Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
                   ],
                 ),
               ),

@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.black,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
           children: [
 
             FlatButton(
-              splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -51,18 +51,18 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 120,
                   alignment: Alignment.centerLeft,
-                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 18)),
+                  child: Text("SPORT", style: TextStyle(color: Colors.black, fontSize: 19)),
                 ),
                 Container(
                   height: 120,
                   alignment: Alignment.centerRight,
-                  child: Image.asset("assets/sport.png", width: 100, height: 100, color: Colors.white,)
+                  child: Image.asset("assets/sport.png", width: 110, height: 110, color: Colors.black,)
                 ),
               ],
             ),
             ),
             FlatButton(
-              splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -77,12 +77,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("CRUISER", style: TextStyle(color: Colors.black, fontSize: 19)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/cruiser.png", width: 100, height: 100, color: Colors.white,)
+                      child: Image.asset("assets/cruiser.png", width: 120, height: 120, color: Colors.black,)
                   ),
                 ],
               ),
@@ -91,7 +91,7 @@ class MyApp extends StatelessWidget {
               height: 10,
             ),
             FlatButton(
-              splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -105,12 +105,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.black, fontSize: 19)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/enduro.png", width: 100, height: 100, color: Colors.white,)
+                      child: Image.asset("assets/enduro.png", width: 110, height: 110, color: Colors.black,)
                   ),
                 ],
               ),
@@ -119,7 +119,7 @@ class MyApp extends StatelessWidget {
               height: 10,
             ),
             FlatButton(
-              splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -133,12 +133,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.black, fontSize: 19)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/grandtour.png", width: 100, height: 100, color: Colors.white,)
+                      child: Image.asset("assets/grandtour.png", width: 110, height: 110, color: Colors.black,)
                   ),
                 ],
               ),
@@ -147,7 +147,7 @@ class MyApp extends StatelessWidget {
               height: 10,
             ),
             FlatButton(
-              splashColor: Colors.deepOrange,
+              splashColor: Colors.grey[600],
               onPressed: () {
                 Navigator.push(
                   context,
@@ -161,12 +161,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("TRIKE", style: TextStyle(color: Colors.black, fontSize: 19)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/trike.png", width: 100, height: 100, color: Colors.white,)
+                      child: Image.asset("assets/trike.png", width: 110, height: 110, color: Colors.black,)
                   ),
                 ],
               ),
