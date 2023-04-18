@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.deepOrange,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
@@ -50,12 +50,12 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 120,
                   alignment: Alignment.centerLeft,
-                  child: Text("SPORT", style: TextStyle(color: Colors.black, fontSize: 19)),
+                  child: Text("SPORT", style: TextStyle(color: Colors.white, fontSize: 18)),
                 ),
                 Container(
                   height: 120,
                   alignment: Alignment.centerRight,
-                  child: Image.asset("assets/sport.png", width: 110, height: 110, color: Colors.black,)
+                  child: Image.asset("assets/sport.png", width: 110, height: 110, color: Colors.white,)
                 ),
               ],
             ),
@@ -76,12 +76,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("CRUISER", style: TextStyle(color: Colors.black, fontSize: 19)),
+                    child: Text("CRUISER", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/cruiser.png", width: 110, height: 110, color: Colors.black,)
+                      child: Image.asset("assets/cruiser.png", width: 110, height: 110, color: Colors.white,)
                   ),
                 ],
               ),
@@ -104,12 +104,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.black, fontSize: 19)),
+                    child: Text("ADVENTURE\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/enduro.png", width: 110, height: 110, color: Colors.black,)
+                      child: Image.asset("assets/enduro.png", width: 110, height: 110, color: Colors.white,)
                   ),
                 ],
               ),
@@ -132,12 +132,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.black, fontSize: 19)),
+                    child: Text("GRAND AMERICAN\nTOURING", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/grandtour.png", width: 110, height: 110, color: Colors.black,)
+                      child: Image.asset("assets/grandtour.png", width: 110, height: 110, color: Colors.white,)
                   ),
                 ],
               ),
@@ -160,12 +160,12 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("TRIKE", style: TextStyle(color: Colors.black, fontSize: 19)),
+                    child: Text("TRIKE", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/trike.png", width: 110, height: 110, color: Colors.black,)
+                      child: Image.asset("assets/trike.png", width: 110, height: 110, color: Colors.white,)
                   ),
                 ],
               ),
