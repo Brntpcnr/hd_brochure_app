@@ -13,9 +13,9 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.deepOrange,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
@@ -46,13 +46,13 @@ class Home extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                           radius: 60,
-                          child: Image.asset("assets/sport.png", color: Colors.black, width: 90, height: 80),
+                          child: Image.asset("assets/sport.png", color: Colors.deepOrange[700], width: 90, height: 80),
                           backgroundColor: Colors.transparent,
                       ),
                       SizedBox(
                         height: 5,
                       ),
-                      Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
+                      Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
                     ],
                   ),
               ),
@@ -72,13 +72,13 @@ class Home extends StatelessWidget {
                   children: <Widget>[
                     CircleAvatar(
                       radius: 60,
-                      child: Image.asset("assets/loc.png", color: Colors.black, width: 90, height: 80),
+                      child: Image.asset("assets/loc.png", color: Colors.deepOrange[700], width: 90, height: 80),
                       backgroundColor: Colors.transparent,
                     ),
                     SizedBox(
                       height: 5,
                     ),
-                    Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
+                    Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
                   ],
                 ),
               ),

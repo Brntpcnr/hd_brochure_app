@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         child: Column(
           children: [
             FlatButton(
-              splashColor: Colors.grey[600],
+              splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
             ),
             ),
             FlatButton(
-              splashColor: Colors.grey[600],
+              splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
               height: 10,
             ),
             FlatButton(
-              splashColor: Colors.grey[600],
+              splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -118,7 +118,7 @@ class MyApp extends StatelessWidget {
               height: 10,
             ),
             FlatButton(
-              splashColor: Colors.grey[600],
+              splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -146,7 +146,7 @@ class MyApp extends StatelessWidget {
               height: 10,
             ),
             FlatButton(
-              splashColor: Colors.grey[600],
+              splashColor: Colors.deepOrange,
               onPressed: () {
                 Navigator.push(
                   context,
