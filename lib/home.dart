@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                           radius: 60,
-                          child: Image.asset("assets/sport.png", color: Colors.black, width: 80, height: 70),
+                          child: Image.asset("assets/sport.png", color: Colors.black, width: 90, height: 80),
                           backgroundColor: Colors.transparent,
                       ),
                       SizedBox(
@@ -72,7 +72,7 @@ class Home extends StatelessWidget {
                   children: <Widget>[
                     CircleAvatar(
                       radius: 60,
-                      child: Image.asset("assets/loc.png", color: Colors.black, width: 80, height: 70),
+                      child: Image.asset("assets/loc.png", color: Colors.black, width: 90, height: 80),
                       backgroundColor: Colors.transparent,
                     ),
                     SizedBox(

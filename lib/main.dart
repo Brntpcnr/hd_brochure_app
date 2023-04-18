@@ -35,7 +35,6 @@ class MyApp extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         child: Column(
           children: [
-
             FlatButton(
               splashColor: Colors.grey[600],
               onPressed: () {
@@ -82,7 +81,7 @@ class MyApp extends StatelessWidget {
                   Container(
                       height: 120,
                       alignment: Alignment.centerRight,
-                      child: Image.asset("assets/cruiser.png", width: 120, height: 120, color: Colors.black,)
+                      child: Image.asset("assets/cruiser.png", width: 110, height: 110, color: Colors.black,)
                   ),
                 ],
               ),
