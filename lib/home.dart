@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.deepOrange,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
