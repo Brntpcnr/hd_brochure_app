@@ -26,7 +26,7 @@ class Grand extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor: Colors.yellow[900],
+        backgroundColor: Colors.red,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
