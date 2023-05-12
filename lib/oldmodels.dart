@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:hd_brochure_app/sportdetail/detail2.dart';
-import 'package:hd_brochure_app/sportdetail/detail3.dart';
-import 'package:hd_brochure_app/sportdetail/detail1.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail1.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail2.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail3.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail4.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail5.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail6.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail7.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail10.dart';
+
 
 void main() {
   runApp(const OldModels());
@@ -15,7 +21,7 @@ class OldModels extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.black54,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
@@ -39,7 +45,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
+                  MaterialPageRoute(builder: (context) => OldDetail1()
                   ),
                 );
               },
@@ -47,7 +53,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
+                    child: Image.asset("assets/iron-883.png", width: 310, height: 200
                     ),
                   ),
                 ],
@@ -61,7 +67,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail2()
+                  MaterialPageRoute(builder: (context) => OldDetail2()
                   ),
                 );
               },
@@ -70,7 +76,7 @@ class OldModels extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Container(
-                      child: Image.asset("assets/SportsterS.png", width: 328, height: 200,
+                      child: Image.asset("assets/forty-eight.png", width: 340, height: 200,
                       ),
                     ),
                   ),
@@ -85,7 +91,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail3()
+                  MaterialPageRoute(builder: (context) => OldDetail3()
                   ),
                 );
               },
@@ -93,7 +99,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/NightsterSpecial.png", width: 290, height: 200,
+                    child: Image.asset("assets/eldiablo2.png", width: 320, height: 200,
                     ),
                   ),
                 ],
@@ -107,7 +113,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
+                  MaterialPageRoute(builder: (context) => OldDetail4()
                   ),
                 );
               },
@@ -115,7 +121,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
+                    child: Image.asset("assets/electraglide.png", width: 270, height: 200
                     ),
                   ),
                 ],
@@ -129,7 +135,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
+                  MaterialPageRoute(builder: (context) => OldDetail5()
                   ),
                 );
               },
@@ -137,7 +143,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
+                    child: Image.asset("assets/road-king.png", width: 320, height: 200
                     ),
                   ),
                 ],
@@ -151,7 +157,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
+                  MaterialPageRoute(builder: (context) => OldDetail6()
                   ),
                 );
               },
@@ -159,7 +165,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
+                    child: Image.asset("assets/cvostreetg.png", width: 290, height: 200
                     ),
                   ),
                 ],
@@ -173,7 +179,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
+                  MaterialPageRoute(builder: (context) => OldDetail7()
                   ),
                 );
               },
@@ -181,7 +187,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
+                    child: Image.asset("assets/cvoroadgli.png", width: 320, height: 205
                     ),
                   ),
                 ],
@@ -195,7 +201,7 @@ class OldModels extends StatelessWidget {
             FlatButton(
               onPressed: () {
                 Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
+                  MaterialPageRoute(builder: (context) => OldDetail10()
                   ),
                 );
               },
@@ -203,57 +209,13 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
+                    child: Image.asset("assets/cvotriglide.png", width: 350, height: 200
                     ),
                   ),
                 ],
               ),
             ),
-            Text("Pan America 1250 Special \n (G.I. Enthusiast Collection)", style: TextStyle(
-                color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold,), textAlign: TextAlign.center),
-            SizedBox(
-              height: 15,
-            ),
-            FlatButton(
-              onPressed: () {
-                Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
-                  ),
-                );
-              },
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Text("Tri Glide Ultra \n (G.I. Enthusiast Collection)", style: TextStyle(
-              color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold,), textAlign: TextAlign.center),
-            SizedBox(
-              height: 15,
-            ),
-            FlatButton(
-              onPressed: () {
-                Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Detail1()
-                  ),
-                );
-              },
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    child: Image.asset("assets/Iron883.png", width: 290, height: 200
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Text("CVO Tri Glide)", style: TextStyle(
+            Text("CVO Tri Glide", style: TextStyle(
               color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold,), textAlign: TextAlign.center),
             SizedBox(
               height: 15,

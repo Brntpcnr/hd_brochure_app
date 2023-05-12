@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(const OldDetail3());
+  runApp(const OldDetail10());
 }
 
-class OldDetail3 extends StatelessWidget {
-  const OldDetail3({Key? key}) : super(key: key);
+class OldDetail10 extends StatelessWidget {
+  const OldDetail10({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,27 +18,27 @@ class OldDetail3 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("LOW RIDER EL DIABLO", style: TextStyle(
+                child: Text("CVO TRI GLIDE", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/eldiablo2.png", width: 400, height: 300),
+            Image.asset("assets/cvotriglide.png", width: 400, height: 300),
             const ListTile(
               title: Text(
-                "Low Rider® El Diablo",
+                "CVO™ Tri Glide®",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Go like the devil.",
+                    "Tricycle with more premium Touring features than you could ever imagine.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "The Low Rider® El Diablo embodies the spirit of counterculture in Southern California in the ‘80s in a contemporary package that includes meticulously crafted custom paint, Milwaukee-Eight® 117 V-Twin powertrain, frame mounted fairing and high-performance audio from Rockford Fosgate. ",
+                "Endless adventures on three wheels. The 2022 CVO™ Tri Gilde™ offers powerful performance and long-distance touring, as well as the added confidence of a third wheel. Designed with meticulous attention to detail, this motorcycle boasts a world-class sound system, luxurious comfort features and stunning finish.",
               ),
             ),
             SizedBox(
@@ -78,7 +78,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('103 HP / 77 kW', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('107 HP / 80 kW', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
                 Column(
@@ -95,7 +95,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('169 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('163 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
               ],

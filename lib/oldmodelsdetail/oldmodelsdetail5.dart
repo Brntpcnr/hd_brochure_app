@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(const OldDetail3());
+  runApp(const OldDetail5());
 }
 
-class OldDetail3 extends StatelessWidget {
-  const OldDetail3({Key? key}) : super(key: key);
+class OldDetail5 extends StatelessWidget {
+  const OldDetail5({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,27 +18,27 @@ class OldDetail3 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("LOW RIDER EL DIABLO", style: TextStyle(
+                child: Text("ROAD KING", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/eldiablo2.png", width: 400, height: 300),
+            Image.asset("assets/road-king.png", width: 380, height: 300),
             const ListTile(
               title: Text(
-                "Low Rider® El Diablo",
+                "Road King™ Special",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Go like the devil.",
+                    "Brought the simplified nostalgic style born in the 60s to the present day.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "The Low Rider® El Diablo embodies the spirit of counterculture in Southern California in the ‘80s in a contemporary package that includes meticulously crafted custom paint, Milwaukee-Eight® 117 V-Twin powertrain, frame mounted fairing and high-performance audio from Rockford Fosgate. ",
+                "With Road King®, you are in control of both your mind and your driving. Inspired by many years on the open road, this motorcycle that successfully carries the legacy of the past. It brings the 60s style Hiawatha headlamp and headlamp to the present by combining it with a blackened Milwaukee-Eight® 107 engine .",
               ),
             ),
             SizedBox(
@@ -61,7 +61,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('1923CC', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('1746CC', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
                 Column(
@@ -78,7 +78,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('103 HP / 77 kW', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('89 HP / 66 kW', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
                 Column(
@@ -95,7 +95,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('169 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('150 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
               ],

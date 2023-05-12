@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(const OldDetail3());
+  runApp(const OldDetail7());
 }
 
-class OldDetail3 extends StatelessWidget {
-  const OldDetail3({Key? key}) : super(key: key);
+class OldDetail7 extends StatelessWidget {
+  const OldDetail7({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,27 +18,27 @@ class OldDetail3 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("LOW RIDER EL DIABLO", style: TextStyle(
+                child: Text("CVO ROAD GLIDE", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/eldiablo2.png", width: 400, height: 300),
+            Image.asset("assets/cvoroadgli.png", width: 380, height: 300),
             const ListTile(
               title: Text(
-                "Low Rider® El Diablo",
+                "CVO™ Road Glide®",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Go like the devil.",
+                    "A showstopping custom bagger loaded with custom details and power.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "The Low Rider® El Diablo embodies the spirit of counterculture in Southern California in the ‘80s in a contemporary package that includes meticulously crafted custom paint, Milwaukee-Eight® 117 V-Twin powertrain, frame mounted fairing and high-performance audio from Rockford Fosgate. ",
+                "Menacing style meets unrelenting performance in the 2022 CVO™ Road Glide®. A distinctive sharknose fairing  with the scorching power of the Milwaukee-Eight® 117 powertrain and finished with custom paint makes for a bike that only the world’s most-desirable motorcycle brand could offer. ",
               ),
             ),
             SizedBox(
@@ -78,7 +78,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('103 HP / 77 kW', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('105 HP / 78 kW', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
                 Column(
@@ -95,7 +95,7 @@ class OldDetail3 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('169 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('171 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
               ],
