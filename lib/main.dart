@@ -170,6 +170,31 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+            FlatButton(
+              splashColor: Colors.deepOrange,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Sport()
+                  ),
+                );
+              },
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 120,
+                    alignment: Alignment.centerLeft,
+                    child: Text("OLD MODELS", style: TextStyle(color: Colors.white, fontSize: 18)),
+                  ),
+                  Container(
+                      height: 120,
+                      alignment: Alignment.centerRight,
+                      child: Image.asset("assets/sport.png", width: 110, height: 110, color: Colors.white,)
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),

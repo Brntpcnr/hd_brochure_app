@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'welcome.dart';
 import 'main.dart';
+import 'about.dart';
+import 'map.dart';
 
 
 void main() {
@@ -28,62 +30,85 @@ class Home extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            FlatButton(
-              //splashColor: Colors.grey[600],
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MyApp()
-                  ),
-                );
-              },
-              child: Container(
-                child:
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              FlatButton(
+                splashColor: Colors.white,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MyApp()
+                    ),
+                  );
+                },
+                child: Container(
+                  child:
+                    Column(
+                      children: <Widget>[
+                        CircleAvatar(
+                            radius: 40,
+                            child: Image.asset("assets/sport.png", color: Colors.deepOrange[700], width: 70, height: 60),
+                            backgroundColor: Colors.transparent,
+                        ),
+
+                        Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
+                      ],
+                    ),
+                ),
+              ),
+              FlatButton(
+                splashColor: Colors.white,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Maps()
+                    ),
+                  );
+                },
+                child: Container(
+                  child:
                   Column(
                     children: <Widget>[
                       CircleAvatar(
-                          radius: 60,
-                          child: Image.asset("assets/sport.png", color: Colors.deepOrange[700], width: 90, height: 80),
-                          backgroundColor: Colors.transparent,
+                        radius: 40,
+                        child: Image.asset("assets/loc.png", color: Colors.deepOrange[700], width: 70, height: 60),
+                        backgroundColor: Colors.transparent,
                       ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
+
+                      Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
                     ],
                   ),
-              ),
-            ),
-            FlatButton(
-              //splashColor: Colors.deepOrange,
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MyApp()
-                  ),
-                );
-              },
-              child: Container(
-                child:
-                Column(
-                  children: <Widget>[
-                    CircleAvatar(
-                      radius: 60,
-                      child: Image.asset("assets/loc.png", color: Colors.deepOrange[700], width: 90, height: 80),
-                      backgroundColor: Colors.transparent,
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
-                  ],
                 ),
               ),
-            ),
-          ],
+              FlatButton(
+                splashColor: Colors.white,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => About()
+                    ),
+                  );
+                },
+                child: Container(
+                  child:
+                  Column(
+                    children: <Widget>[
+                      CircleAvatar(
+                        radius: 40,
+                        child: Image.asset("assets/about.png", color: Colors.deepOrange[700], width: 70, height: 60),
+                        backgroundColor: Colors.transparent,
+                      ),
+
+                      Text('ABOUT', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
