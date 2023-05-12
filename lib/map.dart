@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'welcome.dart';
 import 'main.dart';
@@ -30,8 +31,12 @@ class Maps extends StatelessWidget {
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         child: (
-            Container(
-
+            Center(
+              child: Padding(
+                padding: EdgeInsets.fromLTRB(5, 15, 5, 0),
+                child: Text("Check if your local H-D office have what you need. Whether it be a Lowrider-S bike or a mini-ape handlebar. We got you.",
+                    textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 18, fontStyle: FontStyle.italic)),
+              ),
             )
         ),
       ),

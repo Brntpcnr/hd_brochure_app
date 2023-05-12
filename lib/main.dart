@@ -185,7 +185,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     height: 120,
                     alignment: Alignment.centerLeft,
-                    child: Text("OLD MODELS", style: TextStyle(color: Colors.white, fontSize: 18)),
+                    child: Text("2022 MODELS", style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
                   Container(
                       height: 120,

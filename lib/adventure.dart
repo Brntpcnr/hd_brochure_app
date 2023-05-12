@@ -35,8 +35,7 @@ class Adventure extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text("Where touring becomes detouring, and everything is a road.",
-                  textAlign: TextAlign.center, style: TextStyle(
-                  color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
+                  textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 20, fontStyle: FontStyle.italic)),
             ),
             FlatButton(
               onPressed: () {

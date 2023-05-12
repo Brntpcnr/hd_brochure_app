@@ -32,11 +32,10 @@ class About extends StatelessWidget {
         child: (
           Center(
             child: Padding(
-              padding: EdgeInsets.fromLTRB(5, 20, 5, 0),
-            child: Text("This app is made solely for the purpose of providing a digital brochure to people who are Harley Davidson lovers. (Please do acknowledge "
+              padding: EdgeInsets.fromLTRB(5, 15, 5, 0),
+              child: Text("This app is made solely for the purpose of providing a digital brochure to people who are Harley Davidson lovers. (Please do acknowledge "
                 "the fact that it is in beta version). For any questions and further information, contact https://www.harley-davidson.com",
-                textAlign: TextAlign.center, style: TextStyle(
-                    color: Colors.white, fontSize: 18)),
+                textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 18, fontStyle: FontStyle.italic)),
             ),
           )
         ),
