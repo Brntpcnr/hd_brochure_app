@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(const OldDetail2());
+  runApp(const OldDetail11());
 }
 
-class OldDetail2 extends StatelessWidget {
-  const OldDetail2({Key? key}) : super(key: key);
+class OldDetail11 extends StatelessWidget {
+  const OldDetail11({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,27 +18,27 @@ class OldDetail2 extends StatelessWidget {
             Center(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(0,50,0,0),
-                child: Text("FORTY-EIGHT", style: TextStyle(
+                child: Text("IRON 1200", style: TextStyle(
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/fortyreef.png", width: 380, height: 300),
+            Image.asset("assets/i1200.png", width: 320, height: 300),
             const ListTile(
               title: Text(
-                "Forty-Eight™",
+                "Iron 1200™",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black),
               ),
               subtitle: Padding(
                 padding: EdgeInsets.fromLTRB(0,10,0,0),
                 child: Text(
-                    "Heavy-hitting style with fat tires and an iconic peanut tank.",
+                    "Add more to your purity and feel the iron roar.",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)
                 ),
               ),
             ),
             const ListTile(
               title: Text(
-                "For urban riders looking to command attention, with a powerful stance, smooth ride and sharp handling 1200cc Air-Cooled Evolution® V-Twin engine",
+                "It all started with that famous 1200cc Evolution® engine that delivers monstrous Sportster® torque. With details inspired by the fuel tank design of the 70s, it has a look that goes back to the Sportster's past.",
               ),
             ),
             SizedBox(
@@ -78,7 +78,7 @@ class OldDetail2 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('65 HP / 47 kW', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('66 HP / 49 kW', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
                 Column(
@@ -95,7 +95,7 @@ class OldDetail2 extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    Text('95 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text('98 Nm', style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
               ],

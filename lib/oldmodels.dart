@@ -7,6 +7,8 @@ import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail5.dart';
 import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail6.dart';
 import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail7.dart';
 import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail10.dart';
+import 'package:hd_brochure_app/oldmodelsdetail/oldmodelsdetail11.dart';
+
 
 
 void main() {
@@ -53,13 +55,35 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/iron-883.png", width: 310, height: 200
+                    child: Image.asset("assets/iron-883.png", width: 328, height: 200
                     ),
                   ),
                 ],
               ),
             ),
             Text("Iron 883", style: TextStyle(
+                color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
+            SizedBox(
+              height: 15,
+            ),
+            FlatButton(
+              onPressed: () {
+                Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => OldDetail11()
+                  ),
+                );
+              },
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    child: Image.asset("assets/i1200.png", width: 280, height: 200
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Text("Iron 1200", style: TextStyle(
                 color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
             SizedBox(
               height: 15,
@@ -76,7 +100,7 @@ class OldModels extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Container(
-                      child: Image.asset("assets/forty-eight.png", width: 340, height: 200,
+                      child: Image.asset("assets/fortyreef.png", width: 280, height: 200,
                       ),
                     ),
                   ),
@@ -187,7 +211,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/cvoroadgli.png", width: 320, height: 205
+                    child: Image.asset("assets/cvoroadgli.png", width: 320, height: 200
                     ),
                   ),
                 ],
@@ -209,7 +233,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/cvotriglide.png", width: 350, height: 200
+                    child: Image.asset("assets/cvotriglide.png", width: 328, height: 200
                     ),
                   ),
                 ],

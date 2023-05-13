@@ -38,7 +38,7 @@ class OldDetail1 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "You are now looking at the pioneer of the purebred, blackened and simplified custom style. Fine-tuned suspension. No adjustment required. Black cast aluminum wheels with machined highlights. Completely blackened surfaces. You will have everything you need. There is nothing unnecessary.",
+                "You are now looking at the pioneer of the purebred, blackened and simplified custom style. Fine-tuned suspension. No adjustment required. Black cast aluminum wheels with machined highlights. You will have everything you need. There is nothing unnecessary.",
               ),
             ),
             SizedBox(

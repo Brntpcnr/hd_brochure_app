@@ -54,7 +54,7 @@ class Home extends StatelessWidget {
                             backgroundColor: Colors.transparent,
                         ),
 
-                        Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
+                        Text('MOTORCYCLES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700], fontSize: 12)),
                       ],
                     ),
                 ),
@@ -78,7 +78,7 @@ class Home extends StatelessWidget {
                         backgroundColor: Colors.transparent,
                       ),
 
-                      Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
+                      Text('HARLEY OFFICES', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700], fontSize: 12)),
                     ],
                   ),
                 ),
@@ -102,7 +102,7 @@ class Home extends StatelessWidget {
                         backgroundColor: Colors.transparent,
                       ),
 
-                      Text('ABOUT', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700])),
+                      Text('ABOUT', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepOrange[700], fontSize: 12)),
                     ],
                   ),
                 ),

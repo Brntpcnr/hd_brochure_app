@@ -58,7 +58,7 @@ class Grand extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                      child: Image.asset("assets/cvoroad.png", width: 360, height: 200,
+                      child: Image.asset("assets/cvoroad.png", width: 328, height: 200,
                       ),
                   ),
                 ],
