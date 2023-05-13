@@ -25,7 +25,7 @@ class CruiserDetail2 extends StatelessWidget {
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/lowriders.png", width: 400, height: 300),
+            Image.asset("assets/lowr.png", width: 380, height: 300),
             const ListTile(
               title: Text(
                 "2023 Low Rider® S",
