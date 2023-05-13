@@ -54,7 +54,7 @@ class Cruiser extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                      child: Image.asset("assets/lowst2.png", width: 310, height: 200,
+                      child: Image.asset("assets/lowst2.png", width: 300, height: 200,
                       ),
                   ),
                 ],
@@ -76,7 +76,7 @@ class Cruiser extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                      child: Image.asset("assets/lowr.png", width: 310, height: 200,
+                      child: Image.asset("assets/lowr.png", width: 300, height: 200,
                       ),
                   ),
                 ],
