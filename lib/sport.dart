@@ -47,7 +47,7 @@ class Sport extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                        child: Image.asset("assets/Nightster.png", width: 290, height: 200
+                        child: Image.asset("assets/Nightster.png", width: 300, height: 200
                          ),
                   ),
                 ],
@@ -68,9 +68,9 @@ class Sport extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Expanded(
+                    Container(
                       child: Container(
-                        child: Image.asset("assets/SportsterS.png", width: 328, height: 200,
+                        child: Image.asset("assets/sports.png", width: 290, height: 200,
                       ),
                     ),
                     ),
@@ -93,7 +93,7 @@ class Sport extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                        child: Image.asset("assets/NightsterSpecial.png", width: 290, height: 200,
+                        child: Image.asset("assets/NightsterSpecial.png", width: 300, height: 200,
                         ),
                     ),
                   ],

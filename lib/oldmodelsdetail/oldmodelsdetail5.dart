@@ -38,7 +38,7 @@ class OldDetail5 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "With Road King®, you are in control of both your mind and your driving. Inspired by many years on the open road, this motorcycle that successfully carries the legacy of the past. It brings the 60s style Hiawatha headlamp and headlamp to the present by combining it with a blackened Milwaukee-Eight® 107 engine .",
+                "Inspired by many years on the open road, this motorcycle that successfully carries the legacy of the past. It brings the 60s style Hiawatha headlamp and headlamp to the present by combining it with a blackened Milwaukee-Eight® 107 engine.",
               ),
             ),
             SizedBox(

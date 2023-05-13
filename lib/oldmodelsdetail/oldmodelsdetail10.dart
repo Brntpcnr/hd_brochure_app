@@ -38,7 +38,7 @@ class OldDetail10 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "Endless adventures on three wheels. The 2022 CVO™ Tri Gilde™ offers powerful performance and long-distance touring, as well as the added confidence of a third wheel. Designed with meticulous attention to detail, this motorcycle boasts a world-class sound system, luxurious comfort features and stunning finish.",
+                "Endless adventures on three wheels. The 2022 CVO™ Tri Gilde™ offers powerful performance and long-distance touring, as well as the added confidence of a third wheel.",
               ),
             ),
             SizedBox(

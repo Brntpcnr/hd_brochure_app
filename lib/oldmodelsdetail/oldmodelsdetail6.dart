@@ -22,7 +22,7 @@ class OldDetail6 extends StatelessWidget {
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/cvostreetg.png", width: 370, height: 300),
+            Image.asset("assets/cvostreetg.png", width: 340, height: 300),
             const ListTile(
               title: Text(
                 "CVO™ Street Glide®",
@@ -38,7 +38,7 @@ class OldDetail6 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "The classic silhouette of the batwing fairing topped with jaw-dropping paint and finish details, premium audio, and the pavement-peeling power of the Milwaukee-Eight® engine make this one outrageous bike, one that could only come from the word’s most desirable motorcycle brand.",
+                "The classic silhouette of the batwing fairing topped with jaw-dropping paint and finish details and the pavement-peeling power of the Milwaukee-Eight® engine make this one outrageous bike spectecular.",
               ),
             ),
             SizedBox(

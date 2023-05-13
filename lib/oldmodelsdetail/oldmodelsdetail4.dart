@@ -22,7 +22,7 @@ class OldDetail4 extends StatelessWidget {
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/electraglide.png", width: 340, height: 300),
+            Image.asset("assets/electraglide.png", width: 330, height: 300),
             const ListTile(
               title: Text(
                 "Electra Glide® Standard",
@@ -38,7 +38,7 @@ class OldDetail4 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "The Electra Glide® Standard takes the touring-specific features and throws away distractions. With electronic cruise control you'll glide freely while enjoying the roar of the Milwaukee-Eight® 107 engine without any infotainment or sound system to distract you.",
+                "The Electra Glide® Standard takes the touring-specific features and throws away distractions. With electronic cruise control you'll glide freely while enjoying the roar of the Milwaukee-Eight® 107 engine.",
               ),
             ),
             SizedBox(

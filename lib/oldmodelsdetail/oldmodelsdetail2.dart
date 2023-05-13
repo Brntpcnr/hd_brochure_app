@@ -22,7 +22,7 @@ class OldDetail2 extends StatelessWidget {
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/fortyreef.png", width: 380, height: 300),
+            Image.asset("assets/fortyreef.png", width: 340, height: 300),
             const ListTile(
               title: Text(
                 "Forty-Eight™",
@@ -38,7 +38,7 @@ class OldDetail2 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "For urban riders looking to command attention, with a powerful stance, smooth ride and sharp handling 1200cc Air-Cooled Evolution® V-Twin engine",
+                "For urban riders looking to command attention, with a powerful stance, smooth ride and sharp handling 1200cc Air-Cooled Evolution® V-Twin engine.",
               ),
             ),
             SizedBox(

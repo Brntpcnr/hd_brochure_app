@@ -38,7 +38,7 @@ class OldDetail3 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "The Low Rider® El Diablo embodies the spirit of counterculture in Southern California in the ‘80s in a contemporary package that includes meticulously crafted custom paint, Milwaukee-Eight® 117 V-Twin powertrain, frame mounted fairing and high-performance audio from Rockford Fosgate. ",
+                "The Low Rider® El Diablo embodies the spirit of counterculture in Southern California in the ‘80s in a contemporary package that includes meticulously crafted custom paint, Milwaukee-Eight® 117 V-Twin powertrain and frame mounted fairing.",
               ),
             ),
             SizedBox(

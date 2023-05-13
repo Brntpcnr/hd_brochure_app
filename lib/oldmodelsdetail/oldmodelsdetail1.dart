@@ -22,7 +22,7 @@ class OldDetail1 extends StatelessWidget {
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/iron-883.png", width: 400, height: 300),
+            Image.asset("assets/iroh883.png", width: 340, height: 300),
             const ListTile(
               title: Text(
                 "Iron 883™ ",

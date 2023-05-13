@@ -24,7 +24,7 @@ class Detail2 extends StatelessWidget {
                     color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
               ),
             ),
-            Image.asset("assets/SportsterS.png", width: 400, height: 300),
+            Image.asset("assets/sports.png", width: 340, height: 300),
             const ListTile(
               title: Text(
                 "2023 Sportster® S ",

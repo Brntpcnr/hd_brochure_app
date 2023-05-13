@@ -38,7 +38,7 @@ class OldDetail7 extends StatelessWidget {
             ),
             const ListTile(
               title: Text(
-                "Menacing style meets unrelenting performance in the 2022 CVO™ Road Glide®. A distinctive sharknose fairing  with the scorching power of the Milwaukee-Eight® 117 powertrain and finished with custom paint makes for a bike that only the world’s most-desirable motorcycle brand could offer. ",
+                "A distinctive sharknose fairing  with the scorching power of the Milwaukee-Eight® 117 powertrain and finished with custom paint makes for a bike that only the world’s most-desirable motorcycle brand could offer. ",
               ),
             ),
             SizedBox(
