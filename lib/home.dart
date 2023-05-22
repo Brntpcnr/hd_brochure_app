@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               FlatButton(
-                splashColor: Colors.white,
+                //splashColor: Colors.white,
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
                 ),
               ),
               FlatButton(
-                splashColor: Colors.white,
+                //splashColor: Colors.white,
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -84,7 +84,7 @@ class Home extends StatelessWidget {
                 ),
               ),
               FlatButton(
-                splashColor: Colors.white,
+                //splashColor: Colors.orange,
                 onPressed: () {
                   Navigator.push(
                     context,
