@@ -55,7 +55,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/iroh883.png", width: 290, height: 200
+                    child: Image.asset("assets/iroh883.png", width: 280, height: 200
                     ),
                   ),
                 ],
@@ -77,7 +77,7 @@ class OldModels extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    child: Image.asset("assets/i1200.png", width: 290, height: 200
+                    child: Image.asset("assets/i1200.png", width: 280, height: 200
                     ),
                   ),
                 ],
@@ -100,7 +100,7 @@ class OldModels extends StatelessWidget {
                 children: [
                   Container(
                     child: Container(
-                      child: Image.asset("assets/fortyreef.png", width: 290, height: 200
+                      child: Image.asset("assets/fortyreef.png", width: 280, height: 200
                       ),
                     ),
                   ),
