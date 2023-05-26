@@ -6,8 +6,21 @@ import 'main.dart';
 import 'home.dart';
 
 
-class Maps extends StatelessWidget {
+class Maps extends StatefulWidget {
+  const Maps({Key? key}) : super(key: key);
 
+  @override
+  State<Maps> createState() => _MapsState();
+}
+
+class _MapsState extends State<Maps> {
+  late GoogleMapController? mapController;
+
+  final LatLng _center = const LatLng(45.521563, -122.677433);
+
+  void _onMapCreated(GoogleMapController controller) {
+    mapController = controller;
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,16 +37,11 @@ class Maps extends StatelessWidget {
             )
         ),
       ),
-      body: SingleChildScrollView(
-        physics: BouncingScrollPhysics(),
-        child:
-        Center(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(0, 10, 0, 0),
-            child: Text("Check if your local H-D office have what you need. Whether it be a Lowrider-S bike or a mini-ape handlebar. We got you.",
-            textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 18, fontStyle: FontStyle.italic)
-            ),
-          ),
+      body: GoogleMap(
+        onMapCreated: _onMapCreated,
+        initialCameraPosition: CameraPosition(
+          target: _center,
+          zoom: 11.0,
         ),
       ),
     );
