@@ -1,9 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'welcome.dart';
-import 'main.dart';
-import 'home.dart';
 
 
 class Maps extends StatefulWidget {
@@ -16,7 +13,26 @@ class Maps extends StatefulWidget {
 class _MapsState extends State<Maps> {
   late GoogleMapController? mapController;
 
-  final LatLng _center = const LatLng(45.521563, -122.677433);
+  final LatLng _center = const LatLng(37.85585646378929, 27.264860839373114);
+
+  Set<Marker> markers = {
+    Marker(
+      markerId: MarkerId('marker_1'),
+      position: LatLng(37.85585646378929, 27.264860839373114), // Coordinates for marker location
+      infoWindow: InfoWindow(
+        title: 'Destination',
+        snippet: 'Click for further info',
+      ),
+    ),
+    Marker(
+      markerId: MarkerId('marker_2'),
+      position: LatLng(38.33649163090421, 27.13452248184658), // Coordinates for marker location
+      infoWindow: InfoWindow(
+        title: 'Destination',
+        snippet: 'Click for further info',
+      ),
+    ),
+  };
 
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
@@ -41,8 +57,9 @@ class _MapsState extends State<Maps> {
         onMapCreated: _onMapCreated,
         initialCameraPosition: CameraPosition(
           target: _center,
-          zoom: 11.0,
+          zoom: 14.5,
         ),
+        markers: markers,
       ),
     );
   }
