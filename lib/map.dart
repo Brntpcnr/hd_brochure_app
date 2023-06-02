@@ -48,7 +48,7 @@ class _MapsState extends State<Maps> {
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
               child: Text(
                 'HARLEY OFFICES',
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.black),
               ),
             )
         ),
