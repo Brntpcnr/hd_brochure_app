@@ -50,7 +50,7 @@ class _MapsState extends State<Maps> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.deepOrange,
         title: Center(
             child:  Padding(
               padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
