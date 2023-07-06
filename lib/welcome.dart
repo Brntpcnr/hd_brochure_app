@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         children: [
           Center(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(0,40,0,0),
+              padding: const EdgeInsets.fromLTRB(0,50,0,0),
               child: Image.asset("assets/hdlogo.png", height: 100, color: Colors.white),
           ),
           ),

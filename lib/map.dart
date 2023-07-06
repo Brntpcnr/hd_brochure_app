@@ -20,24 +20,24 @@ class _MapsState extends State<Maps> {
       markerId: MarkerId('marker_1'),
       position: LatLng(37.85585646378929, 27.264860839373114), // Coordinates for marker location
       infoWindow: InfoWindow(
-        title: 'H-D Office',
-        snippet: 'Click for further info',
+        title: 'Motor Shop',
+        snippet: 'Check for H-D bikes/parts',
       ),
     ),
     Marker(
       markerId: MarkerId('marker_2'),
-      position: LatLng(38.33649163090421, 27.13452248184658), // Coordinates for marker location
+      position: LatLng(37.85890245018606, 27.269223406494245), // Coordinates for marker location
       infoWindow: InfoWindow(
         title: 'H-D Office',
-        snippet: 'Click for further info',
+        snippet: 'Check for H-D bikes/parts',
       ),
     ),
     Marker(
       markerId: MarkerId('marker_3'),
-      position: LatLng(37.85890245018606, 27.269223406494245), // Coordinates for marker location
+      position: LatLng(38.33649163090421, 27.13452248184658), // Coordinates for marker location
       infoWindow: InfoWindow(
         title: 'H-D Office',
-        snippet: 'Click for further info',
+        snippet: 'İzmir H-D office',
       ),
     ),
   };
