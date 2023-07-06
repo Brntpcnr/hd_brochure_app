@@ -28,16 +28,24 @@ class _MapsState extends State<Maps> {
       markerId: MarkerId('marker_2'), //motorcum motosiklet
       position: LatLng(37.85878996976925, 27.2691869111619), // Coordinates for marker location
       infoWindow: InfoWindow(
-        title: 'H-D Office',
+        title: 'Motor Shop',
         snippet: 'Check for H-D bikes/parts',
       ),
     ),
     Marker(
-      markerId: MarkerId('marker_3'), //h-d office İzmir
+      markerId: MarkerId('marker_3'), // h-d office İzmir
       position: LatLng(38.33649163090421, 27.13452248184658), // Coordinates for marker location
       infoWindow: InfoWindow(
         title: 'H-D Office',
         snippet: 'İzmir H-D office',
+      ),
+    ),
+    Marker(
+      markerId: MarkerId('marker_4'), // motorcu göçmen
+      position: LatLng(38.426522178971204, 27.148384572504487), // Coordinates for marker location
+      infoWindow: InfoWindow(
+        title: 'High-end Motor shop',
+        snippet: 'Check for H-D bikes/parts',
       ),
     ),
   };
