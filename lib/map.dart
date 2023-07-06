@@ -17,23 +17,23 @@ class _MapsState extends State<Maps> {
 
   Set<Marker> markers = {
     Marker(
-      markerId: MarkerId('marker_1'),
-      position: LatLng(37.85585646378929, 27.264860839373114), // Coordinates for marker location
+      markerId: MarkerId('marker_1'), //yamaha yetginler
+      position: LatLng(37.857949437184025, 27.269176430501677), // Coordinates for marker location
       infoWindow: InfoWindow(
         title: 'Motor Shop',
         snippet: 'Check for H-D bikes/parts',
       ),
     ),
     Marker(
-      markerId: MarkerId('marker_2'),
-      position: LatLng(37.85890245018606, 27.269223406494245), // Coordinates for marker location
+      markerId: MarkerId('marker_2'), //motorcum motosiklet
+      position: LatLng(37.85878996976925, 27.2691869111619), // Coordinates for marker location
       infoWindow: InfoWindow(
         title: 'H-D Office',
         snippet: 'Check for H-D bikes/parts',
       ),
     ),
     Marker(
-      markerId: MarkerId('marker_3'),
+      markerId: MarkerId('marker_3'), //h-d office İzmir
       position: LatLng(38.33649163090421, 27.13452248184658), // Coordinates for marker location
       infoWindow: InfoWindow(
         title: 'H-D Office',
