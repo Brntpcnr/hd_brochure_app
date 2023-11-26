@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepOrange,
         title: Center(
             child:  Padding(
-              padding: const EdgeInsets.fromLTRB(0, 0, 40, 0),
+              padding: const EdgeInsets.fromLTRB(0, 0, 50, 0),
               child: Text(
                 'H-D APP',
                 style: TextStyle(color: Colors.white),
